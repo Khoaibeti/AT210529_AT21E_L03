@@ -4,7 +4,7 @@ int main() {
     int thang, nam, ngay;
 
     printf("Vui long nhap thang va nam: ");
-    scanf("%d%d", &thang&nam);
+    scanf("%d %d", &thang,&nam);
         switch (thang) {
         case 1: case 3: case 5: case 7:
         case 8: case 10: case 12:
